@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #212121;
+}
+.button {
+  background: #1641BC;
+  outline: 2px solid #1641BC;
+  color: white;
+  border-radius: 7%;
+  border: 0.5px solid #1641BC;
+  transition: outline-offset 0.3s;
+}
+.button span{
+  display: block;
+  padding: 0.5em 1.5em;
+  border-radius: 7%;
+}
+.button:is(:hover, :focus){
+  outline-offset: 3px;
+}
